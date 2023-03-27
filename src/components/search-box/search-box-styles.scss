@@ -1,0 +1,28 @@
+.search-box {
+    position: relative;
+    background: #081d2c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.search-input {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 1.2em;
+
+    outline: none;
+    overflow: visible;
+    margin: 0;
+    color: #C5001A;
+
+    &::placeholder{
+        color: #C5001A;
+    }
+}
